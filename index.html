@@ -40,7 +40,7 @@
                </ul>
             </nav>
             <div class="header__links">
-               <a href="./pages/contacts.html" class="header__btn btn">Contact Us</a>
+               <a href="#openModal" class="header__btn btn">Contact Us</a>
             </div>
             <!-- Hamburger icon -->
             <input class="side-menu" type="checkbox" id="side-menu" />
@@ -76,6 +76,112 @@
                   </div>
                </div>
             </div>
+            <!-- -------------------------MODAL START----------------------- -->
+
+            <div id="openModal" class="modal">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <form class="form__wrap">
+                        <a class="form-close__btn" href="#close"><img src="./img/close-icon.svg" alt="icon"></a>
+                        <div class="form-wrap__top">
+                           <h2 class="form__title">Ready to work with us?</h2>
+                        </div>
+                        <div class="input__wrap">
+                           <input class="form-modal__name input__name input" name="name" type="text" placeholder="Name"
+                              required>
+                           <input class="form-modal__email input__email input" name="email" type="email"
+                              placeholder="E-mail" required>
+                        </div>
+                        <textarea class="form-modal__message input__message input" name="message" id="ilwgstrbu"
+                           cols="30" rows="10" placeholder="Message"></textarea>
+                        <div class="checkbox">
+                           <div class="checkbox__wrap">
+                              <input type="checkbox" id="checkbox1" class="form-modal__checkbox1 input__checkbox"
+                                 required name="agreement">
+                              <label for="checkbox1">
+                                 <p> I have read and accept the <span class="text-underline">General Terms</span> and
+                                    <span class="text-underline">Conditions</span> and the <span
+                                       class="text-underline">Privacy Policy</span>.
+                                 </p>
+                              </label>
+                           </div>
+                           <div class="checkbox__wrap">
+                              <input type="checkbox" id="checkbox2"
+                                 class="form-modal__checkbox2 input__checkbox checkbox2" name="subscription">
+                              <label for="checkbox2">I want to receive notifications about the latest
+                                 products, events and cutting-edge ideas.</label>
+                           </div>
+                        </div>
+                        <div class="modal__btn-wrap">
+                           <button class="form-modal__btn btn" type="submit">Send message <img src="./img/btn-icon.svg"
+                                 alt="icon"></button>
+                        </div>
+
+                     </form>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ------------------------------------SUCCESE------------------------------------ -->
+
+            <div class="succes-modal" id="Succes">
+               <div class="succes-dialog">
+                  <div class="succes-content">
+                     <div class="succes__inner">
+                        <a class="form-close__btn" href="#close"><img src="./img/close-icon.svg" alt="icon"></a>
+                        <div class="ooops__top">
+                           <div class="ooops__top-text">
+                              <h3 class="ooops__title">Succes!</h3>
+                           </div>
+                        </div>
+                        <div class="ooops__content">
+                           <img class="succes-icon" src="./img/succes-icon.svg" alt="icon">
+                           <p class="succes__desc">Your application has been accepted.
+                              You will be contacted shortly for further details.</p>
+                        </div>
+                     </div>
+                     <div class="succes__btn-inner">
+                        <a class="succes__btn btn" href="#close">
+                           Continue
+                           <img src="./img/btn-icon.svg" alt="icon">
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+
+            <!-- ------------------------------------OOOOOPS------------------------------------ -->
+
+            <div class="succes-modal" id="Ooops">
+               <div class="succes-dialog">
+                  <div class="succes-content">
+                     <div class="succes__inner">
+                        <a class="form-close__btn" href="#close"><img src="./img/close-icon.svg" alt="icon"></a>
+                        <div class="ooops__top">
+                           <div class="ooops__top-text">
+                              <h3 class="ooops__title">Oops!</h3>
+                           </div>
+                        </div>
+                        <div class="ooops__content">
+                           <img class="succes-icon" src="./img/ooops-icon.svg" alt="icon">
+                           <p class="succes__desc">Something went wrong. <br>
+                              Please try again!</p>
+                        </div>
+                     </div>
+                     <div class="ooops__btn-inner">
+                        <div class="ooops__btns">
+                           <a class="ooops__btn btn" href="#openModal">
+                              Try again
+                              <img src="./img/btn-icon.svg" alt="icon">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- ------------------------------------MODAL END----------------------------- -->
          </div>
       </div>
 
