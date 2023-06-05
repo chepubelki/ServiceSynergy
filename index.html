@@ -20,27 +20,42 @@
          <div class="header__inner">
             <div class="logo__wrap">
                <a href="./index.html">
-                  <img class="header__logo" src="./images/header__logo.svg" alt="logo">
+                  <img class="header__logo" src="./images/header-logo.svg" alt="logo">
                </a>
             </div>
-            <nav class="nav">
-               <ul class="nav__menu">
-                  <li class="nav__list">
-                     <a class="nav__list-link" href="#about">About us</a>
-                  </li>
-                  <li class="nav__list">
-                     <a class="nav__list-link" href="#feature">Feature</a>
-                  </li>
-                  <li class="nav__list">
-                     <a class="nav__list-link" href="#services">Services</a>
-                  </li>
-                  <li class="nav__list">
-                     <a class="nav__list-link" href="./pages/contacts.html">Join us</a>
-                  </li>
-               </ul>
-            </nav>
-            <div class="header__links">
-               <a href="#openModal" class="header__btn btn">Contact Us</a>
+            <div class="header-right">
+               <nav class="nav">
+                  <ul class="nav__menu">
+                     <li class="nav__list">
+                        <a class="nav__list-link" href="#about">About us</a>
+                     </li>
+                     <li class="nav__list dropdown">
+                        <a class="nav__list-link" href="#services">Services</a>
+                        <button class="dropbtn"><svg width="7" height="5" viewBox="0 0 7 5" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M3.93301 4.75C3.74056 5.08333 3.25944 5.08333 3.06699 4.75L0.901924 1C0.709474 0.666666 0.950037 0.25 1.33494 0.25L5.66506 0.25C6.04996 0.25 6.29053 0.666667 6.09808 1L3.93301 4.75Z"
+                                 fill="white" />
+                           </svg>
+                        </button>
+                        <div class="dropdown-content">
+                           <a class="dropdown-link" href="#legal">Legal Consultancy
+                           </a>
+                           <a class="dropdown-link" href="#business">Business Incorporation
+                           </a>
+                           <a class="dropdown-link" href="#banks">Banks & Alternative Payment Solutions
+                           </a>
+                           <a class="dropdown-link" href="#aml">AML & Compliance
+                           </a>
+                           <a class="dropdown-link" href="#hr">HR & Office Rent
+                           </a>
+                        </div>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="header__links">
+                  <a href="#openModal" class="header__btn btn">Contact Us</a>
+               </div>
             </div>
             <!-- Hamburger icon -->
             <input class="side-menu" type="checkbox" id="side-menu" />
@@ -188,14 +203,40 @@
    </header>
 
    <div class="main">
+      <img class="main-bg-img bg-img" src="./images/main-bg-img.svg" alt="bg img">
       <div class="container">
-         <div class="main__inner with-bg">
-            <h1 class="main__title title">BUILDING A WORLD OF ENDLESS POSSIBILITIES</h1>
-            <p class="main__desc desc">Designing and delivering customized automated test solutions</p>
-            <img class="main__img bg-img" src="./images/main-img.png" alt="img">
+         <div class="main__inner">
+            <h1 class="main__title title">Where legal knowledge <span class="yellow">meets business strategy</span>
+            </h1>
+            <p class="main__desc desc">Collaborative solutions for</p>
+            <p class="main__desc desc yellow">complex legal challenges.</p>
+            <a href="#whatwedo" class="main__btn btn">
+               Learn more
+               <img class="btn-icon" src="./images/btn-icon.svg" alt="icon">
+            </a>
+            <div class="main__card">
+               <div class="main-card__title subtitle">
+                  <img class="main-card__icon" src="./images/main-icon.svg" alt="icon">
+                  Who we are
+               </div>
+               <div class="main-card__text">
+                  <p class="main-card__desc subdesc">We are a team of experienced legal consultants dedicated to
+                     helping
+                     businesses succeed in today's fast-paced and ever-changing business environment.</p>
+                  <p class="main-card__desc subdesc">We understand that navigating legal challenges can be daunting
+                     and
+                     time-consuming, which is why we work closely with our clients to develop customized solutions
+                     that meet their specific needs and goals</p>
+                  <p class="main-card__desc subdesc"> Whether you're just starting out and need help with business
+                     incorporation, or you're an established business looking to expand into new markets, we have the
+                     expertise and industry knowledge to help you achieve your objectives.</p>
+               </div>
+               <div class="main-card__img"></div>
+            </div>
          </div>
       </div>
    </div>
+
 
    <div class="ourMission" id="about">
       <div class="container">

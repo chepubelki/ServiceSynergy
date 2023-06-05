@@ -1,35 +1,87 @@
 @import './style.css';
 
 .main {
-   padding: 150px 0 300px;
-   background: #E9520C;
-   border-radius: 0px 0px 32px 32px;
-   overflow: hidden;
-   color: #FFFFFF;
+   padding: 130px 0 0;
+   position: relative;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main-bg-img {
+   position: absolute;
+   bottom: 0;
+   left: calc(50% - (1937px / 2));
+   z-index: -1;
 }
 
 .main__inner {
+   text-align: center;
    display: flex;
+   align-items: center;
    flex-direction: column;
 }
 
 .main__title {
-   max-width: 928px;
+   max-width: 748px;
 }
 
-.main__desc {
-   max-width: 533px;
-   margin-bottom: 24px;
+.title {
+   margin-bottom: 16px;
 }
 
-.main__btn {}
+.main__desc {}
 
-.main__img {
-   z-index: 1;
-   right: 0;
-   bottom: -530px;
+.desc {}
+
+.main__btn {
+   margin: 20px 0 100px 0;
 }
 
+.btn {}
+
+.btn-icon {}
+
+.main__card {
+   background: rgba(241, 237, 227, 0.8);
+   backdrop-filter: blur(100px);
+   border-radius: 32px 32px 0px 0px;
+   text-align: start;
+   padding: 60px 50px 140px;
+   color: #000000;
+   position: relative;
+}
+
+.main-card__img {
+   position: absolute;
+   width: 952px;
+   height: 286px;
+   background: url('../images/whatWeDo-img.jpg');
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 32px;
+   bottom: -183px;
+   left: calc(50% - (952px / 2));
+}
+
+.main-card__title {
+   margin-bottom: 30px;
+   display: flex;
+   gap: 12px;
+}
+
+.main-card__icon {
+   width: 36px;
+}
+
+.main-card__text {
+   display: flex;
+   justify-content: space-between;
+   gap: 63px;
+}
+
+.main-card__desc {
+   max-width: 326px;
+}
 /* ----------------------------------------------------------------------------------- */
 .ourMission {
    padding: 64px 0;
