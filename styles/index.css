@@ -86,6 +86,115 @@
 /* --------------------------------------------------- */
 
 
+.whatWeDo {
+   padding: 285px 0 54px;
+}
+
+.whatWeDo__inner {
+   text-align: center;
+}
+
+.whatWeDo__title {
+   margin-bottom: 16px;
+}
+
+.whatWeDo__desc {
+   max-width: 598px;
+   margin: 0 auto;
+   margin-bottom: 16px;
+}
+
+.whatWeDo__text {
+   margin-bottom: 48px;
+}
+
+
+
+.whatWeDo__cards {
+   text-align: start;
+   color: #000000;
+
+}
+
+.whatWeDo-card__wrap {
+   display: flex;
+   gap: 40px;
+   margin-bottom: 40px;
+}
+
+.whatWeDo__card {
+   background: #EDD9BA;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   backdrop-filter: blur(100px);
+   border-radius: 24px;
+   padding: 60px 50px 80px;
+   width: 580px;
+   height: 390px;
+   position: relative;
+   overflow: hidden;
+}
+
+.card-1 {}
+
+.card-2 {}
+
+.card-3 {
+   padding-bottom: 46px;
+}
+
+.card-4 {}
+
+.card-5 {
+   width: 100%;
+   padding-bottom: 50px;
+   height: 307px;
+}
+
+.card-5 .whatWeDo-card__desc {
+   max-width: 326px;
+}
+
+.card-5 .whatWeDo-card__text {
+   max-width: 712px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0 40px;
+   height: 100px;
+}
+
+.whatWeDo-card__text {
+   max-width: 385px;
+   overflow: hidden;
+   height: 156px;
+   margin-bottom: 16px;
+}
+
+.whatWeDo-card__title {
+   margin-bottom: 16px;
+   max-width: 385px;
+}
+
+.whatWeDo-card__desc {
+   margin-bottom: 16px;
+}
+
+.whatWeDo-card__img {
+   position: absolute;
+   top: 24px;
+   right: 12px;
+}
+
+.card-5 .whatWeDo-card__img {
+   top: auto;
+   bottom: 43px;
+   right: 12px;
+}
+
+.card-5 .whatWeDo-card__bg-img {
+   filter: blur(350px);
+}
 
 /* --------------------------------------------------- */
 
