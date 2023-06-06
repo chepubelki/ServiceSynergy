@@ -4,6 +4,7 @@
    padding: 130px 0 0;
    position: relative;
    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+   overflow: hidden;
 }
 
 .main-bg-img {
