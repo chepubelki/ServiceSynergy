@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Service Synergy</title>
-   <link rel="icon" type="image/x-icon" href="./img/favicon-icon.svg">
+   <link rel="icon" type="image/x-icon" href="./images/favicon-icon.svg">
    <link rel="stylesheet" href="./styles/index.css">
    <script src="./js/header.js" defer></script>
    <script src="./js/modal.js" defer></script>
@@ -21,17 +21,18 @@
             <div class="header__inner">
                <div class="logo__wrap">
                   <a href="./index.html">
-                     <img class="header__logo" src="./images/header-logo.svg" alt="logo">
+                     <img class="header__logo" src="./images/header-logo.svg" alt="softambed logo">
                   </a>
                </div>
-               <div class="header-right">
+
+               <div class="header__right">
                   <nav class="nav">
                      <ul class="nav__menu">
                         <li class="nav__list">
-                           <a class="nav__list-link" href="#about">About us</a>
+                           <a class="nav__list-link" href="#whatwedo">About</a>
                         </li>
                         <li class="nav__list dropdown">
-                           <a class="nav__list-link" href="#services">Services</a>
+                           <a class="nav__list-link" href="#whatwedo">Services</a>
                            <button class="dropbtn"><svg width="7" height="5" viewBox="0 0 7 5" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                  <path
@@ -54,43 +55,62 @@
                         </li>
                      </ul>
                   </nav>
-                  <div class="header__links">
-                     <a href="#openModal" class="header__btn btn">Contact Us</a>
-                  </div>
-               </div>
-               <!-- Hamburger icon -->
-               <input class="side-menu" type="checkbox" id="side-menu" />
-               <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
-               <!-- Menu -->
-               <div class="navbar">
-                  <div class="container">
-                     <div class="navbar__inner">
-                        <div class="navbar-header">
-                           <a class="header__logo" href="./index.html">
-                              <img class="header-logo" src="./images/header__logo.svg" alt="icon">
-                           </a>
-                           <a href="./pages/contacts.html" class="header__btn btn">Contact Us</a>
-                        </div>
-                        <div class="navbar-content">
-                           <div class="navbar-content-links">
-                              <a class="navbar-content-link" href="#about">About us</a>
-                              <a class="navbar-content-link" href="#feature">Feature</a>
-                              <a class="navbar-content-link" href="#services">Services</a>
-                              <a class="navbar-content-link" href="./pages/contacts.html">Join us</a>
+
+                  <input class="side-menu" type="checkbox" id="side-menu" />
+                  <!-- Menu -->
+                  <div class="navbar">
+                     <img class="main-bg-img" src="./images/main-bg-img.svg" alt="bg img">
+                     <div class="container">
+                        <div class="navbar__inner">
+                           <div class="navbar-header">
+                              <a class="header-logo-link" href="./index.html">
+                                 <img class="header-logo" src="./images/header-logo.svg" alt="icon">
+                              </a>
+                              <div class="navbar-header__links">
+                                 <a href="#openModal" class="header__btn btn">
+                                    Contact Us
+                                    <img class="btn-logo" src="./images/btn-icon.svg" alt="icon">
+                                 </a>
+                                 <input class="side-menu" type="checkbox" id="side-menu" />
+                                 <label class="btnOpenMenu" for="side-menu">
+                                    <div class="btnIcon__wrap  menuBtnIcon__wrap">
+                                       <img class="btn-icon" src="./images/open-modal-btn-icon.svg" alt="icon">
+                                    </div>
+                                 </label>
+                              </div>
+                           </div>
+                           <div class="navbar-content">
+                              <div class="navbar-content-links">
+                                 <a class="navbar-content-link" href="#whatwedo">About</a>
+                                 <p class="navbar-content-text">Services</p>
+                              </div>
+                              <div class="navbar-content-services">
+                                 <a href="#legal" class="navbar-content-services-link">Legal Consultancy </a>
+                                 <a href="#business" class="navbar-content-services-link">Business Incorporation </a>
+                                 <a href="#banks" class="navbar-content-services-link">Banks & Alternative Payment
+                                    Solutions </a>
+                                 <a href="#aml" class="navbar-content-services-link">AML & Compliance </a>
+                                 <a href="#hr" class="navbar-content-services-link">HR & Office Rent</a>
+                              </div>
                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="navbar-footer__wrapper">
-                     <div class="container">
-                        <div class="navbar-footer__inner">
-                           <a class="navbar-footer-card__link"
-                              href="mailto:info@techn1nja.com">info@retenholding.com</a>
-                           <p class="navbar-footer-card__address">Christodoulou Chatzipavlou, 199, 4th Floor, <br>
-                              Flat/Office 4E,
-                              3036 Limassol, Cyprus </p>
+                        <div class="navbar-footer">
+                           <p class="navbar-footer__link">©2023 servicesynergy.io</p>
                         </div>
                      </div>
+                  </div>
+
+                  <div class="header__links">
+                     <a href="#openModal" class="header__btn btn">
+                        Contact Us
+                        <img class="btn-logo" src="./images/btn-icon.svg" alt="icon">
+                     </a>
+                     <input class="side-menu" type="checkbox" id="side-menu" />
+                     <label class="btnOpenMenu" for="side-menu">
+                        <div class="btnIcon__wrap menuBtnIcon__wrap">
+                           <img class="btn-icon" src="./images/close-modal-btn-icon.svg" alt="icon">
+                        </div>
+                     </label>
                   </div>
                </div>
                <!-- -------------------------MODAL START----------------------- -->
@@ -99,7 +119,7 @@
                   <div class="modal-dialog">
                      <div class="modal-content">
                         <form class="form__wrap">
-                           <a class="form-close__btn" href="#close"><img src="./img/close-icon.svg" alt="icon"></a>
+                           <a class="form-close__btn" href="#close"><img src="./images/close-icon.svg" alt="icon"></a>
                            <div class="form-wrap__top">
                               <h2 class="form__title">Ready to work with us?</h2>
                            </div>
@@ -131,7 +151,7 @@
                            </div>
                            <div class="modal__btn-wrap">
                               <button class="form-modal__btn btn" type="submit">Send message <img
-                                    src="./img/btn-icon.svg" alt="icon"></button>
+                                    src="./images/btn-icon.svg" alt="icon"></button>
                            </div>
 
                         </form>
@@ -145,14 +165,14 @@
                   <div class="succes-dialog">
                      <div class="succes-content">
                         <div class="succes__inner">
-                           <a class="form-close__btn" href="#close"><img src="./img/close-icon.svg" alt="icon"></a>
+                           <a class="form-close__btn" href="#close"><img src="./images/close-icon.svg" alt="icon"></a>
                            <div class="ooops__top">
                               <div class="ooops__top-text">
                                  <h3 class="ooops__title">Succes!</h3>
                               </div>
                            </div>
                            <div class="ooops__content">
-                              <img class="succes-icon" src="./img/succes-icon.svg" alt="icon">
+                              <img class="succes-icon" src="./images/succes-icon.svg" alt="icon">
                               <p class="succes__desc">Your application has been accepted.
                                  You will be contacted shortly for further details.</p>
                            </div>
@@ -160,7 +180,7 @@
                         <div class="succes__btn-inner">
                            <a class="succes__btn btn" href="#close">
                               Continue
-                              <img src="./img/btn-icon.svg" alt="icon">
+                              <img src="./images/btn-icon.svg" alt="icon">
                            </a>
                         </div>
                      </div>
@@ -175,14 +195,14 @@
                   <div class="succes-dialog">
                      <div class="succes-content">
                         <div class="succes__inner">
-                           <a class="form-close__btn" href="#close"><img src="./img/close-icon.svg" alt="icon"></a>
+                           <a class="form-close__btn" href="#close"><img src="./images/close-icon.svg" alt="icon"></a>
                            <div class="ooops__top">
                               <div class="ooops__top-text">
                                  <h3 class="ooops__title">Oops!</h3>
                               </div>
                            </div>
                            <div class="ooops__content">
-                              <img class="succes-icon" src="./img/ooops-icon.svg" alt="icon">
+                              <img class="succes-icon" src="./images/ooops-icon.svg" alt="icon">
                               <p class="succes__desc">Something went wrong. <br>
                                  Please try again!</p>
                            </div>
@@ -191,14 +211,20 @@
                            <div class="ooops__btns">
                               <a class="ooops__btn btn" href="#openModal">
                                  Try again
-                                 <img src="./img/btn-icon.svg" alt="icon">
+                                 <img src="./images/btn-icon.svg" alt="icon">
                               </a>
                            </div>
                         </div>
+
+
                      </div>
+
                   </div>
                </div>
+
                <!-- ------------------------------------MODAL END----------------------------- -->
+
+
             </div>
          </div>
 
@@ -380,7 +406,7 @@
       </div>
 
       <footer class="footer">
-         <img class="footer-bg-img" src="./img/main-bg-img.svg" alt="bg img">
+         <img class="footer-bg-img" src="./images/main-bg-img.svg" alt="bg img">
          <div class="container">
             <div class="footer__inner">
                <div class="footer__img">
@@ -392,7 +418,7 @@
                   </div>
                   <a href="#openModal" class="footer__btn btn">
                      Contact Us
-                     <img class="btn-icon" src="./img/btn-icon.svg" alt="icon">
+                     <img class="btn-icon" src="./images/btn-icon.svg" alt="icon">
                   </a>
                </div>
                <p class="footer__copyright">©2023 servicesynergy.io </p>
