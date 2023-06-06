@@ -321,7 +321,7 @@
 
    .main__btn {
       margin: 32px 0 80px 0;
-      width: 100%;
+      max-width: 100%;
       justify-content: center;
    }
 
