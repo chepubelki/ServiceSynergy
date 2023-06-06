@@ -3,7 +3,7 @@
 font-family: 'Inter', sans-serif;
  */
 @import url('./normalize.css');
-/* @import url('./header.css'); */
+@import url('./header.css');
 @import url('./footer.css');
 
 html {
