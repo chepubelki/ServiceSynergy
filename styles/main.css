@@ -4,6 +4,9 @@
    padding: 130px 0 0;
    position: relative;
    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+   background: url('../images/main-bg-img.svg');
+   background-position: bottom -180px center;
+   background-repeat: no-repeat;
 }
 
 .main-bg-img {

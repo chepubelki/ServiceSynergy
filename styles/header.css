@@ -177,7 +177,7 @@
 /* --------------------HAMBURGER MENU START---------------------- */
 
 .navbar {
-   background: #333847;
+   background-color: #333847;
    width: 100vw;
    height: 100vh;
    position: fixed;
@@ -190,6 +190,9 @@
    z-index: 0;
    transition: 0.5s;
    border-bottom: 1px solid #FFFFFF25;
+   background-image: url('../images/main-bg-img.svg');
+   background-position: bottom -150px center;
+   background-repeat: no-repeat;
 }
 
 .navbar .main-bg-img {
