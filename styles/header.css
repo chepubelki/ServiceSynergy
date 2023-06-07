@@ -18,6 +18,8 @@
 
 .active {
    backdrop-filter: blur(13px);
+   -webkit-backdrop-filter: blur(13px);
+   border-bottom: 1px solid #FFFFFF32;
 }
 
 .header-active {
@@ -57,13 +59,14 @@
 .nav__list--active {
    background: rgba(255, 255, 255, 0.06);
    backdrop-filter: blur(13px);
+   -webkit-backdrop-filter: blur(13px);
    border-radius: 12px;
    opacity: 1;
 }
 
 .header__right {
    display: flex;
-   align-items:center;
+   align-items: center;
 }
 
 .header__links {
@@ -91,17 +94,6 @@
    right: -1px;
    background: linear-gradient(165deg, #247ACA, #8CDDFF);
    z-index: -1;
-}
-
-.facebook__btn,
-.linkedIn__btn {
-   background-color: rgba(255, 255, 255, 0.02);
-   border: 0.5px solid rgba(255, 255, 255, 0.16);
-   backdrop-filter: blur(13px);
-   border-radius: 16px;
-   padding: 18px;
-   width: 54px;
-   height: 54px;
 }
 
 /* ------------------------DROPDOWN START----------------------------------- */
@@ -191,7 +183,7 @@
    transition: 0.5s;
    border-bottom: 1px solid #FFFFFF25;
    background-image: url('../images/main-bg-img.svg');
-   background-position: bottom -150px center;
+   background-position: bottom -400px center;
    background-repeat: no-repeat;
 }
 
@@ -359,6 +351,7 @@
    height: 34px;
    background: #E19937;
    backdrop-filter: blur(12px);
+   -webkit-backdrop-filter: blur(12px);
    border-radius: 10px;
    margin-left: 12px;
    display: none;
@@ -430,6 +423,7 @@
    border-radius: 24px;
    background: #F1EDE3;
    border: 1px solid rgba(255, 255, 255, 0.16);
+   position: relative;
 }
 
 .modal-content .form__wrap .input {
@@ -599,10 +593,12 @@ input:focus {
    right: 40px;
    opacity: 0.4;
    z-index: 110;
+   stroke: #000000 !important;
 }
 
 .form-close__btn:hover {
    opacity: 1;
+   stroke: #E98C00 !important;
 }
 
 /* ------------------------------------SUCCESE------------------------------------ */
@@ -821,6 +817,20 @@ input:focus {
    .header {
       border-bottom: 1px solid rgba(255, 255, 255, 0.25);
    }
+
+   .header__btn {
+      background: inherit !important;
+      background: rgba(255, 255, 255, 0.1) !important;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+   }
+
+   .btnOpenMenu {
+      background: inherit !important;
+      background: rgba(255, 255, 255, 0.1) !important;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+   }
 }
 
 @media screen and (max-width: 768px) {
@@ -848,6 +858,7 @@ input:focus {
 
    .form-close__btn {
       top: 24px;
+      right: 24px;
    }
 
    .navbar-footer {

@@ -14,9 +14,11 @@ links.forEach(function (link, index) {
 
     if (box.classList.contains("open")) {
       box.classList.remove("open");
+      link.innerHTML = "Learn more";
     } else {
       boxes.forEach(function (box) {
         box.classList.remove("open");
+        link.innerHTML = "Show less";
       });
 
       cards.forEach(function (card) {
