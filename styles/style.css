@@ -250,7 +250,7 @@ body {
 .input__checkbox:checked+label::before {
    border-color: #E19937;
    background-color: #E19937;
-   background-image: url("../img/checkbox-checked.svg");
+   background-image: url("../images/checkbox-checked.svg");
 }
 
 .input__checkbox:checked+label {
