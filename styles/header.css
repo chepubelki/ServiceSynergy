@@ -589,7 +589,7 @@ input:focus {
 
 .form-close__btn {
    position: absolute;
-   top: 0px;
+   top: 40px;
    right: 40px;
    opacity: 0.4;
    z-index: 110;
