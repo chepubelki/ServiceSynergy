@@ -133,14 +133,6 @@
    height: fit-content !important;
 }
 
-.card-5-blur {
-   filter: blur(450px) !important;
-}
-
-.card5-text-open {
-   max-width: 1100px !important;
-}
-
 /* --------------------------------------------------- */
 
 

@@ -17,8 +17,7 @@
 }
 
 .active {
-   backdrop-filter: blur(13px);
-   -webkit-backdrop-filter: blur(13px);
+   background: #343846;
    border-bottom: 1px solid #FFFFFF32;
 }
 
