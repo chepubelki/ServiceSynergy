@@ -126,7 +126,6 @@ body {
 .input {
    background: rgba(225, 153, 55, 0.06);
    border: 0.5px solid rgba(0, 0, 0, 0.16);
-   backdrop-filter: blur(13px);
    border-radius: 16px;
    height: 54px;
    padding: 16px;
@@ -142,7 +141,6 @@ body {
 .form__wrap {
    background: rgba(255, 255, 255, 0.04);
    border: 1px solid rgba(255, 255, 255, 0.1);
-   backdrop-filter: blur(24.5px);
    color: #000000;
    border-radius: 10px;
    max-width: 580px;
@@ -226,7 +224,6 @@ body {
    flex-grow: 0;
    background: rgba(225, 153, 55, 0.06);
    border: 0.5px solid rgba(0, 0, 0, 0.16);
-   backdrop-filter: blur(13px);
    border-radius: 6px;
    margin-right: 12px;
    background-repeat: no-repeat;
@@ -271,7 +268,6 @@ body {
    border-radius: 16px;
    position: relative;
    background: #E19937;
-   backdrop-filter: blur(13px);
    border-radius: 16px;
    display: flex;
    justify-content: center;
@@ -289,7 +285,6 @@ body {
 .succes__btn::before,
 .ooops__btn::before {
    background: #E19937;
-   backdrop-filter: blur(13px);
    border-radius: 16px;
    content: "";
    position: absolute;
