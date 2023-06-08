@@ -39,10 +39,6 @@ nameInput.addEventListener('blur', () => {
    }
 })
 
-
-
-
-
 function sendRequest() {
    let name = document.querySelector('.form-modal__name').value,
       email = document.querySelector('.form-modal__email').value,
@@ -61,13 +57,11 @@ function sendRequest() {
    })
       .then((response) => {
          console.log(response.json());
-         form.classList.add('form--hidden');
-         successMsg.classList.add('form__success-message--visible');
-         howWeCanHelp.classList.add('form--hidden');
+         window.location.href = '#Succes';
       })
       .catch((e) => {
          console.log(e);
-         errorMsg.classList.add('form__success-message--visible');
+         window.location.href = '#Ooops';
       });
 }
 
