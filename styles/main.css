@@ -86,6 +86,9 @@
 
 .main-card__desc {
    width: 326px;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 26px;
 }
 
 /* Slide in */
