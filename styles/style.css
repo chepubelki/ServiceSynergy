@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
-/* 
+/*
 font-family: 'Inter', sans-serif;
  */
 @import url('./normalize.css');
@@ -61,7 +61,7 @@ body {
    padding: 11px 18px 11px 20px;
    background: #E19937;
    border-radius: 12px;
-   gap: 12px;
+   /*gap: 12px;*/
 }
 
 .btn:hover {
@@ -161,7 +161,7 @@ body {
 
 .input__wrap {
    display: flex;
-   gap: 24px;
+   /*gap: 24px;*/
    margin-bottom: 14px;
 }
 
@@ -194,7 +194,7 @@ body {
 .checkbox {
    display: flex;
    flex-direction: column;
-   gap: 12px;
+   /*gap: 12px;*/
    font-weight: 400;
    font-size: 14px;
    line-height: 22px;
@@ -447,7 +447,7 @@ body {
    }
 
    .input__wrap {
-      gap: 14px;
+      /*gap: 14px;*/
    }
 
    .goModal__title {

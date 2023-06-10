@@ -68,7 +68,7 @@
 
 .header__links {
    display: flex;
-   gap: 8px;
+   /*gap: 8px;*/
    font-weight: 600;
    font-size: 14px;
    line-height: 22px;
@@ -222,7 +222,7 @@
 
 .navbar-content-links {
    display: flex;
-   gap: 32px;
+   /*gap: 32px;*/
    flex-direction: column;
    margin-bottom: 20px;
    font-weight: 500;
@@ -238,7 +238,7 @@
 
 .navbar-content-services {
    display: flex;
-   gap: 28px;
+   /*gap: 28px;*/
    flex-direction: column;
    padding-left: 20px;
    font-weight: 600;
@@ -260,7 +260,7 @@
    font-weight: 700;
    font-size: 14px;
    line-height: 22px;
-   gap: 6px;
+   /*gap: 6px;*/
    max-width: 241px;
    justify-content: center;
    margin: 13px auto 20px;
@@ -527,7 +527,7 @@ input:focus {
 .modal__btns {
    display: flex;
    align-items: center;
-   gap: 12px;
+   /*gap: 12px;*/
    justify-content: center;
 }
 
@@ -728,7 +728,7 @@ input:focus {
 
 .ooops__top-text {
    display: flex;
-   gap: 8px;
+   /*gap: 8px;*/
 }
 
 .ooops__title {
@@ -746,7 +746,7 @@ input:focus {
 .ooops__btns {
    display: flex;
    justify-content: end;
-   gap: 16px;
+   /*gap: 16px;*/
 }
 
 .ooops__btns {
@@ -782,7 +782,7 @@ input:focus {
 
    .input__wrap {
       flex-direction: column;
-      gap: 14px;
+      /*gap: 14px;*/
    }
 }
 
@@ -888,7 +888,7 @@ input:focus {
    }
 
    .header__links {
-      gap: 0;
+      /*gap: 0;*/
    }
 
    .btnOpenMenu {
