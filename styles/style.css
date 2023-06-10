@@ -64,6 +64,10 @@ body {
    /*gap: 12px;*/
 }
 
+.btn img {
+   margin-left: 12px;
+}
+
 .btn:hover {
    background: rgba(225, 153, 55, 0.7);
 }
@@ -161,8 +165,8 @@ body {
 
 .input__wrap {
    display: flex;
-   /*gap: 24px;*/
    margin-bottom: 14px;
+   justify-content: space-between;
 }
 
 .modal__name {}
@@ -376,6 +380,10 @@ body {
       font-size: 21px;
       line-height: 25px;
       margin-bottom: 32px;
+   }
+
+   .input__wrap input:first-child {
+      margin-bottom: 14px;
    }
 }
 

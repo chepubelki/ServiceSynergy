@@ -222,12 +222,15 @@
 
 .navbar-content-links {
    display: flex;
-   /*gap: 32px;*/
    flex-direction: column;
    margin-bottom: 20px;
    font-weight: 500;
    font-size: 28px;
    line-height: 34px;
+}
+
+.navbar-content-link {
+   margin-bottom: 32px;
 }
 
 .navbar-content-link:hover {
@@ -246,11 +249,18 @@
    line-height: 27px;
 }
 
+.navbar-content-services-link {
+   margin-bottom: 28px;
+}
+
+.navbar-content-services-link:last-child {
+   margin-bottom: 0;
+}
+
 .navbar-content-services-link:hover {
    color: #E19937;
 }
 
-.navbar-content-services-link {}
 
 .brgMenu__btn {
    display: flex;
