@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
-/*
-font-family: 'Inter', sans-serif;
- */
+/* 
+font-family: 'Inter', sans-serif; 
+*/
 @import url('./normalize.css');
 @import url('./header.css');
 @import url('./footer.css');
@@ -232,18 +232,15 @@ body {
    background-size: 50% 50%;
 }
 
-/* стили при наведении курсора на checkbox */
 .input__checkbox:not(:disabled):not(:checked)+label:hover::before {
    border: 0.5px solid #E19937;
 }
 
-/* стили для активного чекбокса (при нажатии на него) */
 .input__checkbox:not(:disabled):active+label::before {
    background: #247ACA;
    border-color: rgba(255, 255, 255, 0.16);
 }
 
-/* стили для чекбокса, находящегося в состоянии checked */
 .input__checkbox:checked+label::before {
    border-color: #E19937;
    background-color: #E19937;
