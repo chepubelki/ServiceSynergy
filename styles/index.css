@@ -55,7 +55,7 @@
    position: absolute;
    width: 952px;
    height: 286px;
-   background: url('../images/whatWeDo-img.svg');
+   /*background: url('../images/whatWeDo-img.svg');*/
    background-position: 50% 50%;
    background-repeat: no-repeat;
    background-size: cover;
