@@ -30,8 +30,6 @@
 
 .footer__card {
    background: rgba(241, 237, 227, 0.8);
-
-   border-radius: 32px 32px 0px 0px;
    border-radius: 32px 32px 0px 0px;
    display: flex;
    padding: 72px;
