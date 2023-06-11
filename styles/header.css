@@ -179,7 +179,7 @@
    z-index: 0;
    transition: 0.5s;
    border-bottom: 1px solid #FFFFFF25;
-   /*background-image: url('../images/main-bg-img.svg');*/
+   background-image: url('../images/main-bg-img.png');
    background-position: bottom -400px center;
    background-repeat: no-repeat;
 }
