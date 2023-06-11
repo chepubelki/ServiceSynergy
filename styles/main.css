@@ -28,9 +28,7 @@
    margin: 0 0 16px;
 }
 
-.title {
-
-}
+.title {}
 
 .main__desc {}
 
@@ -52,6 +50,7 @@
    padding: 60px 50px 140px;
    color: #000000;
    position: relative;
+   width: 100%;
 }
 
 .main-card__img {
@@ -88,6 +87,10 @@
    font-weight: 500;
    font-size: 15px;
    line-height: 26px;
+   margin-right: 24px;
+}
+.main-card__desc:last-child {
+   margin-right: 0;
 }
 
 /* Slide in */
@@ -125,7 +128,7 @@
 
 .open {
    height: fit-content !important;
-   width: 100%;
+   max-width: 100% !important;
 }
 
 .card__open {
@@ -189,7 +192,10 @@
    overflow: hidden;
 }
 
-.card-1 {}
+.card-1,
+.card-3 {
+   margin-right: 40px;
+}
 
 .card-2 {}
 
@@ -207,6 +213,7 @@
 
 .card-5 .whatWeDo-card__desc {
    max-width: 326px;
+   margin: 0 40px 16px 0;
 }
 
 .card-5 .whatWeDo-card__text {
@@ -247,8 +254,7 @@
    right: 12px;
 }
 
-.card-5 .whatWeDo-card__bg-img {
-}
+.card-5 .whatWeDo-card__bg-img {}
 
 /* --------------------------------------------------- */
 
@@ -346,7 +352,7 @@
    }
 
    .main-card__desc {
-      margin: 0 auto;
+      margin: 0 auto 16px;
       width: 100%;
    }
 
@@ -370,6 +376,11 @@
       padding: 30px 20px;
       width: 100%;
       height: fit-content;
+   }
+
+   .card-1,
+   .card-3 {
+      margin: 0 0 20px 0;
    }
 
    .whatWeDo-card__wrap {
@@ -430,7 +441,7 @@
    }
 
    .card-5 .whatWeDo-card__desc {
-      margin: 0 auto;
+      margin: 0 auto 16px;
       max-width: 100%;
    }
 
